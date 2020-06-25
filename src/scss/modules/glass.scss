@@ -1,0 +1,16 @@
+.glass {
+    width: 280px;
+    height: 280px;
+    background: url('../assets/img/unnamed.png');
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    &__counter {
+        font-weight: 500;
+        font-size: 70px;
+        color: #000000;
+        margin-top: 80px;
+    }
+}
